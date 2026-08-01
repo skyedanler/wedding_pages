@@ -1,6 +1,6 @@
 # Wedding Pages
 
-I started this project to be able to have complete control over the website that my fiance and I advertised for all of the information for our upcoming nuptials. The website I originally used had website templates that weren't incredibly customizable and I wanted to challenge myself to build something that contained every aspect I desired.
+I started this project on CodePen a few months ago to be able to have complete control over the website that my fiance and I will send out for all of the information for our upcoming nuptials. The inclusive wedding website I originally used had templates for wedding webpages that weren't incredibly customizable. I wanted to challenge myself to build something that contained every aspect of a site that I desired.
 
 ## Things I've Learned/Gotten More Comfortable With
 - How to use JavaScript and CSS to create an interactive slideshow
