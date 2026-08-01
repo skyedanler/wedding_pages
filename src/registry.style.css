@@ -1,0 +1,10 @@
+.registry-tab {
+  font-weight: bold;
+}
+h3 {
+  display: flex;
+  min-height: 500px;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
