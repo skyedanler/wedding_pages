@@ -1,14 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-
-  <head>
-    <meta charset="UTF-8">
-    <title>Wedding Page FAQ Button</title>
-    <link rel="stylesheet" href="/style.css">
-  </head>
-
-  <body>
-    <!DOCTYPE html>
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,32 +11,8 @@
     <link rel="icon" type="image/png" href="photos/red_heart.png">
     </head>
   <body>
-  <header>
-    <div class="header-fun">
-      <img src="photos/orange-swirl.png" class="swirl1" alt=""">
-      <h1>Skye & Zach</h1>
-      <img src="photos/orange-swirl.png" class="swirl2" alt=""">
-    </div>
-    <div class="date">
-      
-      <!--under title stuff-->
-      <h2>
-        <time datetime="2027-08-21T15:00">08.21.2027</time>
-      </h2>
-      <p> | </p>
-      <h2 id="countdown"></h2>
-      
-    </div>
-  </header>
-  <nav class="menu">
-    <ul class=nav-list>
-      <li class="about-tab"><a href="#">About</a></li>
-      <li><a href="photos.html">Photos</a></li>
-      <li><a href="rsvp.html">RSVP</a></li>
-      <li><a href="faq.html">Q+A</a></li>
-      <li><a href="registry.html">Registry</a></li>
-    </ul>
-  </nav>
+    
+  <?php include 'nav.php'; ?>
 
 
     <main>
@@ -84,8 +50,4 @@
     </main>
     <footer id="footer"></footer>
   </body>
-</html>
-    <script src="/script.js"></script>
-  </body>
-
 </html>
