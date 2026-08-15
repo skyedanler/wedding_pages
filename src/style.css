@@ -82,6 +82,13 @@ header .swirl1 {
   font-size: 2em;
 }
 
+/*navbar*/
+.active {
+  background: var(--secondary-color);
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+
 .nav-list {
   list-style-type: none;
   margin: 0 15% 0;
@@ -104,9 +111,6 @@ header .swirl1 {
   font-size: 1.3em;
 }
 
-.about-tab {
-  font-weight: bold;
-}
 
 /*main*/
 /*location*/

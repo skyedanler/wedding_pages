@@ -9,36 +9,14 @@
     <link rel="stylesheet" href="rsvp.style.css">
     <script src="script.js" defer></script>
     <title>RSVP | S+Z</title>
+    <link rel="icon" type="image/png" href="photos/red_heart.png">
     </head>
   
     <body>
-  <header>
-    <div class="header-fun">
-      <img src="photos/orange-swirl.png" class="swirl1">
-      <h1>Skye & Zach</h1>
-      <img src="photos/orange-swirl.png" class="swirl2">
-    </div>
-    <div class="date">
-      
-      <!--under title stuff-->
-      <h2>
-        <time datetime="2027-08-21T15:00">08.21.2027</time>
-      </h2>
-      <p> | </p>
-      <h2 id="countdown"></h2>
-      
-    </div>
-  </header>
-      
-  <nav class="menu">
-    <ul class=nav-list>
-      <li><a href="/">About</a></li>
-      <li><a href="photos.html">Photos</a></li>
-      <li class="rsvp-tab"><a href=#>RSVP</a></li>
-      <li><a href="faq.html">Q+A</a></li>
-      <li><a href="registry.html">Registry</a></li>
-    </ul>
-  </nav>
+  <!--Put header and nav here when these pages are relevant-->
+   <?php //include 'nav.php'; ?>
+  
+
     <main>
     <h3 class="first-h3">Please RSVP by <time datetime="2027-06-17T15:00">June 17th, 2027.</time></h3>
     <h3 class="second-h3">We hope to see you there! :)</h3>
@@ -139,6 +117,6 @@
       </div>
     </div>
     </main>
-    <footer id="footer"></footer>
+    <footer id="footer">&copy;2026 Danler</footer>
   </body>
 </html>

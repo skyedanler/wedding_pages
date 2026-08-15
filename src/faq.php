@@ -8,37 +8,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&family=Ysabeau:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
     <title>Q+A | S+Z</title>
+    <link rel="icon" type="image/png" href="photos/red_heart.png">
     <script src="script.js" defer></script>
-    </head>
-  <body>
-  <header>
-    <div class="header-fun">
-      <img src="photos/orange-swirl.png" class="swirl1" alt=""">
-      <h1>Skye & Zach</h1>
-      <img src="photos/orange-swirl.png" class="swirl2" alt=""">
-    </div>
-    <div class="date">
-      
-      <!--under title stuff-->
-      <h2>
-        <time datetime="2027-08-21T15:00">08.21.2027</time>
-      </h2>
-      <p> | </p>
-      <h2 id="countdown"></h2>
-      
-    </div>
-  </header>
-  <nav class="menu">
-    <ul class=nav-list>
-      <li><a href="/">About</a></li>
-      <li><a href="photos.html">Photos</a></li>
-      <li><a href="rsvp.html">RSVP</a></li>
-      <li class="faq-tab"><a href=#>Q+A</a></li>
-      <li><a href="registry.html">Registry</a></li>
-    </ul>
-  </nav>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="faq.style.css">
+    </head>
+  <body>
+    
+  <?php include 'nav.php'; ?>
 
     <!--info-->
     <div class="faqs-container" id="faqs-container"></div>
@@ -145,6 +122,6 @@ const faqsContainer = document.getElementById('faqs-container');
     </script>
      
 
-   <footer id="footer"></footer>
+   <footer id="footer">&copy;2026 Danler</footer>
   </body>
 </html>

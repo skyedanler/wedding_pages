@@ -18,8 +18,3 @@ function dayCountdown() {
 }
 
 timer = setInterval(dayCountdown, 1000);
-
-
-//footer year
-var year = new Date().getFullYear();
-document.getElementById("footer").innerHTML = `&copy;` + year + " by Skye Danler";

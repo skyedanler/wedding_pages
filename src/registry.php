@@ -8,40 +8,18 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="registry.style.css">
     <title>Registry | S+Z</title>
+    <link rel="icon" type="image/png" href="photos/red_heart.png">
     <script src="script.js" defer></script>
     </head>
   
     <body>
-  <header>
-    <div class="header-fun">
-      <img src="photos/orange-swirl.png" class="swirl1">
-      <h1>Skye & Zach</h1>
-      <img src="photos/orange-swirl.png" class="swirl2">
-    </div>
-    <div class="date">
-      
-      <!--under title stuff-->
-      <h2>
-        <time datetime="2027-08-21T15:00">08.21.2027</time>
-      </h2>
-      <p> | </p>
-      <h2 id="countdown"></h2>
-      
-    </div>
-  </header>
-      
-  <nav class="menu">
-    <ul class=nav-list>
-      <li><a href="/">About</a></li>
-      <li><a href="photos.html">Photos</a></li>
-      <li><a href="rsvp.html">RSVP</a></li>
-      <li><a href="faq.html">Q+A</a></li>
-      <li class="registry-tab"><a href=#>Registry</a></li>
-    </ul>
-  </nav>
+
+    <!--Put header and nav here when these pages are relevant-->
+   <?php //include 'nav.php'; ?>
+
     <main>
       <h3>Registry coming soon!</h3>
     </main>
-    <footer id="footer"></footer>
+    <footer id="footer">&copy;2026 Danler</footer>
   </body>
 </html>

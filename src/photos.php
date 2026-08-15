@@ -11,37 +11,13 @@
     <link rel="stylesheet" href="photos.style.css">
     <title>Photos | S+Z</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="photos/red_heart.png">
     <script src="script.js" defer></script>
     </head>
   
     <body>
-  <!--header-->
-  <header>
-    <div class="header-fun">
-      <img src="photos/orange-swirl.png" class="swirl1">
-      <h1>Skye & Zach</h1>
-      <img src="photos/orange-swirl.png" class="swirl2">
-    </div>
-    <div class="date">
       
-      <!--under title stuff-->
-      <h2>
-        <time datetime="2027-08-21T15:00">08.21.2027</time>
-      </h2>
-      <p> | </p>
-      <h2 id="countdown"></h2>
-      
-    </div>
-  </header>
-  <nav class="menu">
-    <ul class=nav-list>
-      <li><a href="/">About</a></li>
-      <li class="photos-tab"><a href=#>Photos</a></li>
-      <li><a href="rsvp.html">RSVP</a></li>
-      <li><a href="faq.html">Q+A</a></li>
-      <li><a href="registry.html">Registry</a></li>
-    </ul>
-  </nav>    
+  <?php include 'nav.php'; ?>
 
 <!--slideshow-->
       <div class="slideshow-container" id="slideshow-container">
@@ -125,6 +101,6 @@
     </script>
 
 
-    <footer id="footer"></footer>
+    <footer id="footer">&copy;2026 Danler</footer>
   </body>
 </html>

@@ -18,8 +18,10 @@
     </div>
   </header>
   <nav class="menu">
-  <a href="?index.php" class="<?= ($activePage == 'index.php') ? 'active' : ''; ?>">Details</a>
-  <a href="?photos.php" class="<?= ($activePage == 'photos.php') ? 'active' : ''; ?>">Photos</a>
-  <a href="?faq.php" class="<?= ($activePage == 'faq.php') ? 'active' : ''; ?>">Q+A</a>
-  <a href="?registry.php" class="<?= ($activePage == 'registry.php') ? 'active' : ''; ?>">Registry</a>
-    </nav>
+    <ul class="nav-list">
+      <li><a href="index.php" class="<?= ($activePage == 'index.php') ? 'active' : ''; ?>">Details</a></li>
+      <li><a href="photos.php" class="<?= ($activePage == 'photos.php') ? 'active' : ''; ?>">Photos</a></li>
+      <li><a href="faq.php" class="<?= ($activePage == 'faq.php') ? 'active' : ''; ?>">Q+A</a></li>
+    </ul>
+  </nav>
+  
