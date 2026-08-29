@@ -1,9 +1,8 @@
-
+.rsvp-tab {
+  font-weight: bold;
+}
 
 /*headers*/
-.quick-welcome {
-  display: grid;
-}
 h3 {
   text-align: center;
 }
@@ -13,62 +12,89 @@ h3 {
 .second-h3 {
   font-size: 1rem;    
 }
+form {
+  display: flex;
+  align-items: center;
+  width: 65vw;
+  flex-direction: column;
+}
+
+/*search for invitation*/
+.search-guest-container {
+  display: flex;
+  flex-direction: column;
+}
+.search-form {
+  justify-content: center;
+  margin: 25px 0px;
+}
+.search-div {
+  display: flex;
+  margin: 10px;
+  gap: 10px;
+}
+#matches {
+  list-style: none;
+  margin: 0 0 35px 0;
+  padding: 0;
+}
+
+/*actual rsvp form*/
+.rsvp-form {
+  display: hidden;
+}
+fieldset {
+  border: 1px solid var(--secondary-color);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  margin: 15px auto;
+  gap: 0.5rem;
+  width: 100%;
+  box-shadow: 3px 3px 3px hsl(30 70% 55%);
+}
+.personal-info input {
+  width: 50%;
+}
+
+input[type="text"], input[type="email"], textarea {
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+}
+.dietary-restrictions {
+  padding-top: 10px;
+}
+::placeholder {
+  color: hsl(0deg 10% 70% / 70%);
+}
+button {
+  font-family: "Ysabeau", sans-serif;
+  padding: 5px 15px;
+  background: hsl(30 70% 30%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow:
+    inset 0px .25px 8px hsl(30,35%,30%),
+    inset 0px .25px 15px hsl(30,30%,30%),
+    0px 2px 7px hsl(0,10%,20%);
+}
+button:hover {
+  cursor: pointer;
+  background: white;
+  color: hsl(30 70% 30%);
+}
+button:focus, button:active {
+  border: 1px solid white;
+  transform: translate 2px 2px;
+}
+
+
 
 /*
-/*form*
-form {
-  display: grid;
-  margin: 40px 10% 5px;
-}
-.rsvp-form div {
-  padding: 10px 0 10px;
-}
-
-/*acceptance*
-.acceptance {
-  display: flex;
-}
-.acceptance div {
-  padding: 0 10px 0;
-}
-
-/*meal preference*
-.meal-type {
-  display: grid;
-}
-.meal-type div {
-  margin-left: 20px;
-}
-input {
-  border: none;
-  border-radius: 5px;
-}
-input[type="radio"] {
-  border: none;
-  border-radius: 50%;
-}
-
-/*open ended questions*
-textarea {
-  border: none;
-  border-radius: 5px;
-}
-
-/*submit button*
-div.submit {
-  display: flex;
-}
-button[type="submit"] {
-  font-family: "Ysabeau", sans-serif;
-  background-color: white;
-  border: none;
-  border-radius: 5px;
-  color: #d2691e;
-  justify-content: center;
-}
-*/
-
-
 .rsvp-photos {
   display: none;
 }
@@ -76,25 +102,8 @@ button[type="submit"] {
   display: flex;
   justify-content: center;
 }
+*/
 
 @media (min-width: 800px) {
-.rsvp-split {
-  display: flex;
-}
-.rsvp-photos {
-  width: 50%;
-  align-content: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: flex-end;
-}
-.rsvp-photos img {
-  width: 80%;
-}
-.rsvp-form {
-  width: 50%;
-  display: flex;
-  justify-content: left;
-}
+
 }

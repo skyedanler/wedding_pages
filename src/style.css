@@ -20,10 +20,10 @@
 }
 
 /*Ysabeau*/
-.ysabeau-<uniquifier> {
+.ysabeau-font {
   font-family: "Ysabeau", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: bold;
   font-style: normal;
 }
 
@@ -82,13 +82,6 @@ header .swirl1 {
   font-size: 2em;
 }
 
-/*navbar*/
-.active {
-  background: var(--secondary-color);
-  padding: 5px 10px;
-  border-radius: 6px;
-}
-
 .nav-list {
   list-style-type: none;
   margin: 0 15% 0;
@@ -111,6 +104,9 @@ header .swirl1 {
   font-size: 1.3em;
 }
 
+.about-tab {
+  font-weight: bold;
+}
 
 /*main*/
 /*location*/
@@ -188,9 +184,11 @@ address {
 
 /*footer*/
 footer {
-  text-align: right;
   color: white;
   padding: 30px 15px 5px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
 
 @media (min-width: 800px) {
