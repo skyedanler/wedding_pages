@@ -20,6 +20,6 @@
     <main>
       <h3>Registry coming soon!</h3>
     </main>
-    <footer id="footer">&copy;2026 Danler</footer>
+    <footer id="footer">&copy;2026 Skye Danler</footer>
   </body>
 </html>

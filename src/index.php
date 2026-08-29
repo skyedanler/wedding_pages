@@ -48,6 +48,6 @@
         </div>
       </section>
     </main>
-    <footer id="footer">&copy;2026 Danler</footer>
+    <footer>&copy;2026 Skye Danler</footer>
   </body>
 </html>

@@ -31,7 +31,7 @@
     <button type="submit" id="search-guests">Search</button>
       </div>
   </form>
-    <ul id="matches"></ul>
+    <ul id="matches" class="matches"></ul>
     <button type="submit" class="find-invite" style="display: none">Select Invitation</button>
     </div>
       
@@ -86,6 +86,6 @@
     </div>
       -->
     </main>
-    <footer id="footer"></footer>
+    <footer>&copy;2026 Skye Danler</footer>
   </body>
 </html>
