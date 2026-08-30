@@ -86,3 +86,5 @@ submitForm.addEventListener("submit", (event) => {
   
   submitMessage.style.display = "block";
 });
+
+//TODO: update html form based on invitation selected
