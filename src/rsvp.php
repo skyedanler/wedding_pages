@@ -70,7 +70,8 @@
     <button id="submit-rsvp" type="submit">Submit RSVP</button>
 </form>
 
-<p class="submit-message" style="display: none;">Thank you so much for your RSVP!</p>
+<!--TODO: once you can figure out the backend and take what was entered (which I think you could actually do now using user input without backend), change message based on if they said yes or no?-->
+<p class="submit-message" style="display: none;">Thank you for RSVPing! Whether we'll see you there or not, we're grateful for you!</p>
 
 
   <!--

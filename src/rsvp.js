@@ -70,12 +70,19 @@ selectInvite.addEventListener("click", (event) => {
 
 
 //submitting
-const submitForm = document.getElementById("submit-rsvp");
+const submitForm = document.getElementById("userForm");
 const submitMessage = document.querySelector(".submit-message");
+
+const header1 = document.querySelector(".first-h3");
+const header2 = document.querySelector(".second-h3");
 
 
 submitForm.addEventListener("submit", (event) => {
-  console.log("working?");
+  event.preventDefault();
+
   rsvpDiv.style.display = "none";
+  header1.style.display = "none";
+  header2.style.display = "none";
+  
   submitMessage.style.display = "block";
-})
+});
