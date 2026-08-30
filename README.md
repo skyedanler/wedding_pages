@@ -7,6 +7,8 @@ I started this project on CodePen a few months ago to be able to have complete c
 - Getting more comfortable with using JavaScript to add in HTML for repeat list items such as the FAQ page
 - How to create dropdown accordion FAQs using JavaScript and CSS
 - Took an "Introduction to PHP" course with Codecademy so that I wasn't repeating the nav and header section across files and could create one nav.php file.
+- Implemented a JSON file from the guest list so learning to fetch and incorporate that information.
+- Using event listeners for the RSVP form to be able to have users interact with the website.
 
 ## What I'd Like To Still Accomplish
 1. I'd like to create a form that is filled out for RSVPs. I currently have an embedded Google Forms as I am still getting comfortable with using backend techniques with storing information for later use.
