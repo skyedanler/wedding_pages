@@ -55,3 +55,27 @@ searchForm.addEventListener("submit", (event) => {
 
 //search button has been clicked and list of users displays
 //TODO: form should show and it should specifically ask if each individual guest in party is coming
+
+//switching to invitation
+const searchingDiv = document.querySelector(".search-guest-container");
+const rsvpDiv = document.querySelector(".rsvp-form");
+const selectInvite = document.querySelector(".find-invite");
+
+selectInvite.addEventListener("click", (event) => {
+  event.preventDefault();
+
+  searchingDiv.style.display = "none";
+  rsvpDiv.style.display = "flex";
+});
+
+
+//submitting
+const submitForm = document.getElementById("submit-rsvp");
+const submitMessage = document.querySelector(".submit-message");
+
+
+submitForm.addEventListener("submit", (event) => {
+  console.log("working?");
+  rsvpDiv.style.display = "none";
+  submitMessage.style.display = "block";
+})

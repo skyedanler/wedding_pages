@@ -67,8 +67,10 @@
       <textarea id="dietary-restrictions" name="dietary-restrictions" cols="20" rows="3" placeholder="e.g. gluten-free, nuts, etc."></textarea>
     </fieldset>
 
-    <button type="submit">Submit RSVP</button>
+    <button id="submit-rsvp" type="submit">Submit RSVP</button>
 </form>
+
+<p class="submit-message" style="display: none;">Thank you so much for your RSVP!</p>
 
 
   <!--

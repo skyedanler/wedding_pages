@@ -47,7 +47,8 @@ form {
 
 /*actual rsvp form*/
 .rsvp-form {
-  display: hidden;
+  display: none;
+  margin-bottom: 65px;
 }
 fieldset {
   border: 1px solid var(--secondary-color);
@@ -96,6 +97,11 @@ button:hover {
 button:focus, button:active {
   border: 1px solid white;
   transform: translate 2px 2px;
+}
+
+.submit-message {
+  font-size: 3rem;
+  margin: 80px auto;
 }
 
 
